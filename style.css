@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|EB+Garamond&display=swap');
+
+html, body {
+  background-color: #b2edea;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  min-width: 320px
+}
+
+header {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Abril Fatface', cursive;
+  margin: 20px;
+}
+
+main {
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#form-outer{
+  padding: 5px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.rightTab{
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: bottom;
+  margin: 0;
+  padding: 0;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -54px;
+  margin-left: 10px;
+  display: block;
+ 
+  
+}
+
+#dropdown {
+  height: 26px;
+  width: 250px;
+}
+
+.input{
+  height: 26px;
+  width: 250px;
+}
+
+     
+button {
+  display: inline-block;
+  background-color: #C2FEF6;
+  height: 36px;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: #C2FEF6;
+  margin-top: 5px;
+  border: 0px solid;
+}
+
+button:hover{
+  background-color: #7BFAE9;
+  border-color: #7BFAE9;
+}
+

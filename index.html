@@ -1,0 +1,147 @@
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Survey</title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+      <header>
+        <h1  id="title">Life Satisfaction Survey</h1>
+      </header>
+      
+      <main id="main">
+        <div id="form-outer">
+          
+          <p id="description">
+            Are you satisfied with where you are now? Let us know!
+          </p>
+          
+          
+          <form id="survey-form">
+           
+           <div class="rowTab">
+            <div class="labels">
+             <label id="name-label">
+              *Name:
+            </label>
+             </div>
+             <div class="rightTab">
+            <input class="input" type="text" id="name" placeholder="Enter your name here" required autofocus>
+            </div>
+            </div>
+          
+            <div class="rowTab">
+              <div class="labels">
+            <label id="email-label">
+              *Email:
+            </label>
+              </div>
+              
+          <div class="rightTab">
+            <input class="input" type="email" id="email" placeholder="Enter your email here" required>
+            </div>
+            </div>
+            
+            <div class="rowTab">
+              <div class="labels">
+            <label id="number-label"  >
+              Age:
+            </label>
+              </div>
+         
+            <div class="rightTab">
+              <input type="number" id="number" min="1" max="125" placeholder="Age" class="input" required>
+            </div>
+            </div>
+            
+            <div class="rowTab">
+            <div class="labels">
+              <label id="occupation-label">
+              Select your occupation:
+              </label>
+              </div>
+              
+              <div class="rightTab">
+            <select type="dropdown" id="dropdown" required>
+              <option value="" disabled selected>Select your option</option>
+            <option value="work">Working</option>
+            <option value="student">Student</option>
+            <option value="notwork">Unemployed</option>
+            <option value="notsay">Prefer not to say</option>
+            <option value="other">Other</option>
+            </select>
+              </div>
+            
+              <div class="rowTab">
+              <div class="labels">
+                <label id="pick">How satisfied you are with your current position?
+                  </div>
+                
+                <div class="rightTab">
+                <ul style="list-style: none" class="radio">
+                <li><label><input name="radio-list" type="radio" value="1">Very satisfied</label></li>
+                <li><label><input name="radio-list" type="radio" value="2">It's okay</label></li>
+                <li><label><input name="radio-list" type="radio" value="3">Not satisfied</label></li>
+              </div>
+                </div>
+                
+      <div class="rowTab">
+      <div class="labels">
+ <label for="preferences">Things that I would like to improve: 
+        </label>
+      </div>
+        
+      <div class="rightTab">
+<ul id="preferences" style="list-style: none;">
+     <li class="checkbox">
+       <label>
+       <input name="prefer" value="1" type="checkbox" class="userRatings">
+       My career goals 
+       </label>
+  </li>
+  <li class="checkbox">
+       <label>
+       <input name="prefer" value="1" type="checkbox" class="userRatings">
+       My relationships with others
+       </label>
+  </li>
+  
+  <li class="checkbox">
+       <label>
+       <input name="prefer" value="1" type="checkbox" class="userRatings">
+       My financial situation
+       </label>
+  </li>
+  
+  <li class="checkbox">
+       <label>
+       <input name="prefer" value="1" type="checkbox" class="userRatings">
+       My own inner happiness
+       </label>
+  </li>
+          </div>
+              </div>
+        
+        <div class="rowTab">
+          <div class="labels">
+            Do you have any other comments on the subject?
+          </div>
+          
+          <div class="rightTab">
+        <textarea name="textbox" class="textarea" rows="4" cols="50" placeholder="Enter your comment here!"> 
+          </textarea>
+          </div>
+        </div>
+          
+          <button id="submit" type="submit">Submit</button>
+          </form>
+        </div>
+                </main>
+                <footer></footer>
+                  
+      
+    </body>
+    
+  </html>
